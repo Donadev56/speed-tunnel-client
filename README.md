@@ -7,6 +7,13 @@ OpenNode is a tool designed to help developers publish their local servers on th
 - Node.js
 - npm
 
+### installation
+to install speed-tunnel-clientyou can run :
+
+    ```
+    npm i -g speed-tunnel-client
+
+    ```
 
 ### Usage
 
@@ -15,10 +22,10 @@ OpenNode is a tool designed to help developers publish their local servers on th
     speed-tunnel-client start -p <local-port> -s <subdomain>
     ```
     for example :
-        ```
+     ```
      speed-tunnel-client start --port 5500 --subdomain pinky
 
-    ```
+     ```
 
 Replace `<local-port>` and `<subdomain>` with the desired values. If successful, the server will respond with the unique subdomain where the local server is accessible.
 
